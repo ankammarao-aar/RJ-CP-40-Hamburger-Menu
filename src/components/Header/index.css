@@ -1,0 +1,58 @@
+.header-container {
+  border-bottom: 1px solid #dcdcdc;
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.web-logo {
+  height: 32px;
+  cursor: pointer;
+}
+
+.hamburger-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.popup-card {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-end;
+  padding: 22px;
+}
+
+.icons-card {
+  list-style-type: none;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.link-para {
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
